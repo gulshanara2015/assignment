@@ -19,6 +19,9 @@ driver.findElement(By.xpath("//input[@type='password']")).sendKeys("technical@12
 driver.findElement(By.xpath("(//content[@class='CwaK9'])[1]")).click();
 Thread.sleep(2000);
 driver.findElement(By.xpath("//div[@class='T-I J-J5-Ji T-I-KE L3']")).click();
+Thread.sleep(2000);
+driver.findElement(By.xpath("(//div[@class='J-J5-Ji J-JN-M-I-JG'])[5]")).click();
+driver.findElement(By.xpath("(//div[@class=\"nH\"]//div[@role=\"menuitem\"])[7]")).click();
 
 
 //	driver.close();
