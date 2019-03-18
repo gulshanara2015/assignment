@@ -22,9 +22,12 @@ driver.findElement(By.xpath("//div[@class='T-I J-J5-Ji T-I-KE L3']")).click();
 Thread.sleep(2000);
 driver.findElement(By.xpath("(//div[@class='J-J5-Ji J-JN-M-I-JG'])[5]")).click();
 driver.findElement(By.xpath("(//div[@class=\"nH\"]//div[@role=\"menuitem\"])[7]")).click();
+driver.findElement(By.xpath("(//div[@class=\"J-LC-Jz\"])[1]")).click();
+Thread.sleep(1000);
+driver.findElement(By.xpath("//div[@id=':p8']")).click();
 
 
-//	driver.close();
+driver.close();
 }
 
 }
